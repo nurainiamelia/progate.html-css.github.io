@@ -1,6 +1,5 @@
-
 body {
-  font-family: "Avenir Next";
+  font-family: Verdana, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -24,10 +23,12 @@ li {
 .header-list li {
   float: left;
   padding: 33px 20px;
+  font-size: 16px;
 }
 
 .main {
-  padding: 100px 80px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .copy-container {
@@ -37,11 +38,14 @@ li {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .copy-container h1 {
-  font-size: 60px;
-  margin-bottom: -25px;
+  font-size: 70px;
+  font-weight: 1000;
+  letter-spacing: 5px;
+  margin-bottom: -20px;
 }
 
 .copy-container h2 {
@@ -59,15 +63,22 @@ li {
 
 .about-me {
   color: #363636;
-  width: 100%;
+  width: auto;
   height: auto;
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #eaeaea;
 }
 
+.about-me p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 .contents {
   height: 500px;
@@ -106,7 +117,6 @@ li {
 }
 
 .contact-form {
-  padding-top: 100px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -115,35 +125,45 @@ li {
 }
 
 input, textarea {
-  width: 400px;
+  width: 700px;
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-submit {
   background-color: #fccf55;
   color: black;
+  font-weight: 700;
+  width: 400px;
+  border-radius: 15px;
 }
 
 .footer {
   background-color: #a8a8a8;
   color: #fff;
-  height: 120px;
-  padding: 40px;
+  height: 110px;
+  padding: 30px;
 }
 
 .footer-logo {
   float: left;
-  font-size: 32px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .footer-list {
   float: right;
+  font-size: 15px;
 }
 
 .footer-list li {
-  padding-bottom: 20px;
+  margin: auto;
+  padding: 7px;
 }
